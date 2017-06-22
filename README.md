@@ -1,13 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+* Design from: https://bootswatch.com/cosmo/#dialogs
+https://bootswatch.com/cosmo/bootstrap.css
 
-* System dependencies
+* Inspiration design: https://www.myresponsee.com/prospera/index.html
 
 * Configuration
 
