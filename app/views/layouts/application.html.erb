@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Sidok</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <%= csrf_meta_tags %>
 
     <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.css"> -->
@@ -26,7 +30,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav">
             <!-- <li><a href="#">О нас <span class="sr-only">(current)</span></a></li> -->
-            <li><%= link_to 'О нас', root_path(:anchor => "about-us") %><span class="sr-only">(current)</span></li>
+            <li><%= link_to 'О нас', root_path(:anchor => "about") %></li>
             <li><%= link_to 'Проекты', root_path(:anchor => "projects") %></li>
             <li><%= link_to 'Волонтеры', root_path(:anchor => "volunteers")%></li>
             <li><%= link_to 'Советники', root_path(:anchor => "advisors")%></li>

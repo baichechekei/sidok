@@ -16,7 +16,7 @@
  * {
   //  border: 1px solid red;
  }
- html {
+html  {
    font-family: sans-serif;
    -ms-text-size-adjust: 100%;
    -webkit-text-size-adjust: 100%;
@@ -1590,7 +1590,7 @@
    overflow-y: scroll;
  }
  .container {
-   margin-top: 30px;
+   margin-top: 60px;
    margin-right: auto;
    margin-left: auto;
    padding-left: 15px;
@@ -4999,6 +4999,7 @@
  }
  @media screen and (min-width: 768px) {
    .jumbotron {
+    //  margin-top: 30px;
      padding-top: 48px;
      padding-bottom: 48px;
    }
@@ -6944,7 +6945,3 @@
  .popover {
    color: #333333;
  }
-
-#jumbo-about {
-  background-color: #ff7518;
-}
