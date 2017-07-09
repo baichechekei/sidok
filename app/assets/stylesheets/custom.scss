@@ -4510,11 +4510,11 @@ html  {
    border-color: #121212;
  }
  .navbar-default .navbar-brand {
-   color: #ffffff;
+   color: #3fb618; //#ffffff;
  }
  .navbar-default .navbar-brand:hover,
  .navbar-default .navbar-brand:focus {
-   color: #ffffff;
+   color: yellow; //#ffffff;
    background-color: none;
  }
  .navbar-default .navbar-text {
@@ -6945,3 +6945,31 @@ html  {
  .popover {
    color: #333333;
  }
+
+.contact-form {
+  background-color: #3fb618;
+}
+#ideas {
+  color: yellow; //#ff0039;
+  //background-color: #123212;
+}
+
+#login {
+  color: #3fb618;
+}
+
+#alumni {
+  color: #ff0039;
+}
+
+#contact {
+  color: #ff7518;
+}
+
+#participants {
+  color: #2780e3;
+}
+
+#projects {
+  color: #9954bb;
+}
