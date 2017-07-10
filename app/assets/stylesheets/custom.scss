@@ -1245,7 +1245,7 @@ html  {
  .h2 .small,
  h3 .small,
  .h3 .small {
-   font-size: 65%;
+   font-size: 50%;
  }
  h4,
  .h4,
@@ -1276,7 +1276,8 @@ html  {
  }
  h2,
  .h2 {
-   font-size: 32px;
+   font-size: 1.5em;
+   font-weight: 400;
  }
  h3,
  .h3 {
@@ -4978,10 +4979,12 @@ html  {
  .jumbotron h1,
  .jumbotron .h1 {
    color: inherit;
+   font-size: 2em;
+   font-weight: bold;
  }
  .jumbotron p {
    margin-bottom: 15px;
-   font-size: 23px;
+   font-size: 1em;
    font-weight: 200;
  }
  .jumbotron > hr {
@@ -5010,7 +5013,7 @@ html  {
    }
    .jumbotron h1,
    .jumbotron .h1 {
-     font-size: 68px;
+     font-size: 2em;
    }
  }
  .thumbnail {
