@@ -13,8 +13,9 @@
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
  /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
  * {
-  //  border: 1px solid red;
+  //  border: 1px solid red
  }
 html  {
    font-family: sans-serif;
@@ -23,6 +24,10 @@ html  {
  }
  body {
    margin: 0;
+
+   background: #000000;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #FF070B, #E5008D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #FF070B, #E5008D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
  article,
  aside,
@@ -1599,6 +1604,9 @@ html  {
    margin-left: auto;
    padding-left: 15px;
    padding-right: 15px;
+
+
+
  }
  @media (min-width: 768px) {
    .container {
@@ -7033,6 +7041,7 @@ html  {
 
 .club-name {
   font-style: italic;
+  background-color: #fff;
 }
 
 .club-name-letters {
