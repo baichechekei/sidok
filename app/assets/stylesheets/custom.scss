@@ -1608,9 +1608,6 @@ html  {
    padding-right: 15px;
 
 
-   background: #0cebeb;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
  }
  @media (min-width: 768px) {
@@ -4986,11 +4983,12 @@ html  {
    margin-left: 3px;
  }
  .jumbotron {
-  //  padding-top: 50px;
-   padding-bottom: 30px;
-   margin-bottom: 30px;
+    padding-top: 50px;
+   //padding-bottom: 30px;
+   //margin-bottom: 30px;
    color: inherit;
    background-color: #ffffff;
+   height: 87vh;
  }
  .jumbotron h1,
  .jumbotron .h1 {
@@ -5001,7 +4999,7 @@ html  {
  .jumbotron p {
    margin-bottom: 15px;
    font-size: 1em;
-   font-weight: 300;
+   font-weight: 400;
  }
  .jumbotron > hr {
    border-top-color: #cccccc;
@@ -5020,7 +5018,7 @@ html  {
    .jumbotron {
     //  margin-top: 30px;
      padding-top: 48px;
-     padding-bottom: 48px;
+     //padding-bottom: 48px;
    }
    .container .jumbotron,
    .container-fluid .jumbotron {
@@ -6968,7 +6966,7 @@ html  {
 
 
 #ideas {
-  color: yellow; //#ff0039;
+  //color: yellow; //#ff0039;
 }
 
 #login {
@@ -6980,15 +6978,15 @@ html  {
 }
 
 #contact {
-  color: #ff7518;
+  //color: #ff7518;
 }
 
 #participants {
-  color: #2780e3;
+  //color: #2780e3;
 }
 
 #projects {
-  color: #9954bb;
+  //color: #9954bb;
 }
 
 .special-letters {
