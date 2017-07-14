@@ -1601,7 +1601,7 @@ html  {
    overflow-y: scroll;
  }
  .container {
-   margin-top: 60px;
+   margin-top: 30px;
    margin-right: auto;
    margin-left: auto;
    padding-left: 15px;
@@ -4983,12 +4983,13 @@ html  {
    margin-left: 3px;
  }
  .jumbotron {
-    padding-top: 50px;
+    //padding-top: 50px;
    //padding-bottom: 30px;
-   //margin-bottom: 30px;
+   margin-bottom: 30px;
    color: inherit;
-   background-color: #ffffff;
-   height: 87vh;
+   background-color: yellow; //#ffffff;
+   height: 88vh;
+
  }
  .jumbotron h1,
  .jumbotron .h1 {
@@ -5007,23 +5008,25 @@ html  {
  .container .jumbotron,
  .container-fluid .jumbotron {
    border-radius: 0;
-   padding-left: 15px;
-   padding-right: 15px;
+   //padding-left: 15px;
+   //padding-right: 15px;
  }
  .jumbotron .container {
    max-width: 100%;
    min-height: 100%;
+   overflow-y: scroll;
  }
  @media screen and (min-width: 768px) {
    .jumbotron {
-    //  margin-top: 30px;
-     padding-top: 48px;
+    //margin-top: 30px;
+     //padding-top: 48px;
      //padding-bottom: 48px;
    }
    .container .jumbotron,
    .container-fluid .jumbotron {
-     padding-left: 60px;
-     padding-right: 60px;
+     //padding-left: 60px;
+     //padding-right: 60px;
+
    }
    .jumbotron h1,
    .jumbotron .h1 {
