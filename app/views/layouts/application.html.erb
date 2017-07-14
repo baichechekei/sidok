@@ -30,26 +30,26 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav">
-            <li><%= link_to 'Идеи', root_path(:anchor => "#"), id: "ideas", class: "fa fa-lightbulb-o"%></li>
-            <!-- <li><%= link_to 'Проекты', root_path(:anchor => "projects") %></li> -->
-            <!-- <li><%= link_to 'Волонтеры', root_path(:anchor => "volunteers")%></li>
-            <li><%= link_to 'Советники', root_path(:anchor => "advisors")%></li>
+            <li><%= link_to 'Идеи', root_path(:anchor => "ideas"), class: "fa fa-lightbulb-o"%></li>
+            <li><%= link_to 'Проекты', root_path(:anchor => "projects") %></li>
+             <li><%= link_to 'Волонтеры', root_path(:anchor => "members")%></li>
+            <!--<li><%= link_to 'Советники', root_path(:anchor => "advisors")%></li>
             <li><%= link_to 'Спонсоры', root_path(:anchor => "sponsors")%></li> -->
 
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="projects">Проекты <span class="caret"></span></a>
+            <!-- <li class="dropdown">
+              <a href="projects" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Проекты <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><%= link_to 'Улыбка!Smile!', root_path(:anchor => "volunteers")%></li>
-                <li><%= link_to 'Асель', root_path(:anchor => "advisors")%></li>
-                <li><%= link_to 'Тукурбо', root_path(:anchor => "sponsors")%></li>
+                <li><%= link_to 'Улыбка!Smile!', root_path(:anchor => "smile")%></li>
+                <li><%= link_to 'Асель', root_path(:anchor => "asel")%></li>
+                <li><%= link_to 'Тукурбо', root_path(:anchor => "tukurbo")%></li>
                 <li class="divider"></li>
                 <li><a href="#">Сотрудничество с другими организациями</a></li>
                 <li class="divider"></li>
                 <li><a href="#">One more separated link</a></li>
               </ul>
-            </li>
+            </li> -->
 
-            <li class="dropdown">
+            <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="participants">Участники<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><%= link_to 'Волонтеры', root_path(:anchor => "volunteers")%></li>
@@ -60,7 +60,7 @@
                 <li class="divider"></li>
                 <li><a href="#">One more separated link</a></li>
               </ul>
-            </li>
+            </li> -->
             <li><%= link_to 'Контакты', root_path(:anchor => "contact"), id: "contact"%></li>
 
           </ul>
@@ -86,7 +86,7 @@
       <!-- <div class="panel-body">
         Panel content
       </div> -->
-      <div class="panel-footer">Website created by <a href="https://github.com/baichechekei", target="_blank">&copy;Albina Yamada<a/></div>
+      <div class="panel-footer">Created by <a href="https://github.com/baichechekei", target="_blank">&copy;Albina Yamada<a/></div>
     </div>
 
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.js"></script>

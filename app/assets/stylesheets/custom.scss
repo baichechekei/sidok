@@ -1139,6 +1139,10 @@ html  {
    max-width: 100%;
    height: auto;
  }
+
+ .thumbnail a {
+   color: #3fb618;
+ }
  .img-rounded {
    border-radius: 0;
  }
@@ -4987,8 +4991,8 @@ html  {
    //padding-bottom: 30px;
    margin-bottom: 30px;
    color: inherit;
-   background-color: yellow; //#ffffff;
-   height: 86vh;
+   background-color: #ffffff;
+
    //overflow: scroll;
 
  }
@@ -5046,6 +5050,7 @@ html  {
    -o-transition: border 0.2s ease-in-out;
    transition: border 0.2s ease-in-out;
  }
+
  .thumbnail > img,
  .thumbnail a > img {
    margin-left: auto;
@@ -5054,7 +5059,7 @@ html  {
  a.thumbnail:hover,
  a.thumbnail:focus,
  a.thumbnail.active {
-   border-color: #2780e3;
+   border-color: #ff7518; //#2780e3;
  }
  .thumbnail .caption {
    padding: 9px;
