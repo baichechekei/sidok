@@ -1203,9 +1203,9 @@ html  {
  .h5,
  .h6 {
    font-family: "Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
-   font-weight: 300;
-   line-height: 1.1;
-   color: #ff0039; //inherit;
+   font-weight: bold;
+   line-height: 1;
+   color: #3FB618; //inherit;
  }
  h1 small,
  h2 small,
@@ -1288,7 +1288,7 @@ html  {
  h2,
  .h2 {
    font-size: 1.5em;
-   font-weight: 400;
+   font-weight: bold;
  }
  h3,
  .h3 {
@@ -4310,7 +4310,7 @@ html  {
  .navbar-brand:hover,
  .navbar-brand:focus {
    text-decoration: none;
-   background: #000;
+   background: rgba(63,182,24,0.5);
 
  }
  .navbar-brand > img {
@@ -4329,7 +4329,8 @@ html  {
    padding: 9px 10px;
    margin-top: 8px;
    margin-bottom: 8px;
-   background-color: transparent;
+   color: #3fb618;
+   background-color: rgba(63,182,24,0.5);//transparent;
    background-image: none;
    border: 1px solid transparent;
    border-radius: 0;
@@ -4532,7 +4533,7 @@ html  {
  }
  .navbar-default .navbar-brand:hover,
  .navbar-default .navbar-brand:focus {
-   color: red; //#ffffff;
+   color: #ffffff;
    background-color: none;
  }
  .navbar-default .navbar-text {
@@ -4566,7 +4567,7 @@ html  {
    background-color: #3fb618;//#090909;
  }
  .navbar-default .navbar-toggle .icon-bar {
-   background-color: #3fb618;//#ffffff;
+   background-color: #ffffff;//#3fb618;
  }
 
  .navbar-default .navbar-collapse,
@@ -7008,7 +7009,7 @@ html  {
 }
 
 #contact {
-  //color: #ff7518;
+  color: #ff7518;
 }
 
 #participants {
@@ -7080,4 +7081,24 @@ html  {
 .club-name-letters {
   color: #3fb618;
   font-weight: bold;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #3FB618; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: rgba(63,182,24,0.6); /* Add a dark-grey background on hover */
+    color: #fff;
 }
