@@ -1,5 +1,6 @@
 
  @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
+
  /*!
   * bootswatch v3.3.7
   * Homepage: http://bootswatch.com
@@ -14,9 +15,7 @@
   */
  /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
- * {
-  //  border: 1px solid red
- }
+
 html  {
    font-family: sans-serif;
    -ms-text-size-adjust: 100%;
@@ -5010,6 +5009,13 @@ html  {
    font-size: 1em;
    font-weight: 400;
  }
+
+ .jumbotron img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
  .jumbotron > hr {
    border-top-color: #cccccc;
  }
@@ -5531,6 +5537,14 @@ html  {
    border-bottom-right-radius: -1;
    border-bottom-left-radius: -1;
    text-align: center;
+ }
+
+ .panel-footer a {
+   color: #3fb618;
+ }
+
+ .panel-footer a:hover {
+   color: red;
  }
  .panel > .list-group,
  .panel > .panel-collapse > .list-group {
