@@ -4310,7 +4310,7 @@ html  {
  .navbar-brand:hover,
  .navbar-brand:focus {
    text-decoration: none;
-   background: rgba(63,182,24,0.5);
+   background: rgb(63,182,24);
 
  }
  .navbar-brand > img {
@@ -4546,6 +4546,7 @@ html  {
  .navbar-default .navbar-nav > li > a:focus {
    color: #ffffff;
    background-color: #3fb618;//#090909;
+   font-weight: bold;
  }
  .navbar-default .navbar-nav > .active > a,
  .navbar-default .navbar-nav > .active > a:hover,
@@ -7002,6 +7003,11 @@ html  {
 
 #login {
   color: #3fb618;
+  font-weight: bold;
+}
+
+#login:hover {
+  color: white;
 }
 
 #alumni {
